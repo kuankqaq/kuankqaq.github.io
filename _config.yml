@@ -5,7 +5,7 @@ baseurl:
 url: https://kuankqaq.github.io
 date_format: "ordinal"
 title: 码志
-subtitle: <script type="text/javascript" src="https://api.7585.net.cn/yan/api.php?lx=mj"></script> <div id="hitokoto"><script>hitokoto()</script></div>
+subtitle: <script type="text/javascript" src="https://api.7585.net.cn/yan/api.php?format=js&charset=utf-8"></script>
 description: "马壮的个人博客，公众号：闷骚的程序员"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
