@@ -12,6 +12,7 @@ permalink: /about/
 
 吾爱破解：[@kuank](https://www.52pojie.cn/home.php?mod=space&uid=2114912)
 
+QQ：619676549@qq.com
 
 
 
