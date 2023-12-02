@@ -9,7 +9,5 @@ layout: compress
 {% assign assets_images_url = '<img src="' | append: site.url | append: "/images" %}
 {% include header.html %}
     {{ content | replace: '<img src="/images', assets_images_url }}
-    <span id="busuanzi_container_page_pv">  
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
+
 {% include footer.html %}
