@@ -5,9 +5,9 @@ baseurl:
 url: https://kuankqaq.github.io
 date_format: "ordinal"
 title: 码志
-subtitle: "此页面正在施工中"
-description: "预计2024年一月开放"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+subtitle: "1" #没用
+description: "2" 
+keywords: 码志
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
@@ -27,8 +27,8 @@ components:
         hide-platforms: qq,facebook
     # 不蒜子访问统计
     busuanzi:
-        enabled: false
-        start_date: 2021-05-03
+        enabled: true
+        start_date: 2023-12-02
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -61,7 +61,7 @@ author:
 organization: 
 organization_url: 
 github_username: kuankqaq
-location: 入驻爱发电
+location: Shanghai
 email: 619676549@qq.com
 
 # ---------------- #
