@@ -27,6 +27,6 @@
   src: life
 
 - name: Mcbbs
-  url:www.mcbbs.net
+  url: https://www.mcbbs.net/
   src: www
   
