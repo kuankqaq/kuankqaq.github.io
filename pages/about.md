@@ -14,6 +14,8 @@ permalink: /about/
 
 QQ：619676549@qq.com
 
+mail：[kuankqaq@outlook.com](mail:kuankqaq@outlook.com)
+
 
 
 ## Skill Keywords
