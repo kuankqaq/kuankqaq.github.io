@@ -161,12 +161,14 @@ comments: false
         {% endif %}
 
         {% if paginator.next_page %}
-            <a href="{{ site.url }}/page{{paginator.next_page}}"  class="btn btn-outline">&raquo;</a><br>
-            <a href="https://icp.gov.moe/?keyword=20240915" target="_blank">萌ICP备20240915号</a>
+            <a href="{{ site.url }}/page{{paginator.next_page}}"  class="btn btn-outline">&raquo;</a>
         {% else %}
             <button disabled="disabled" href="javascript:;" class="btn btn-outline">&raquo;</button>
         {% endif %}
         </div>
+        <br>
+            <a href="https://icp.gov.moe/?keyword=20240915" target="_blank">萌ICP备20240915号</a>
+    </div>
     </div>
     <!-- /pagination -->
 </section>
