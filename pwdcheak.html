@@ -1,14 +1,23 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>passwordcheak</title>
+    <style>
+        .image {
+            width: 600px; /* 调整图片的宽度为所需大小 */
+            transform: rotate(180deg); /* 旋转图片180度 */
+        }
+    </style>
+    <title>Protected Page</title>
     <script>
         function loadPage() {
             var password = document.getElementById("password").value;
-            if (password === "123456") {
-                document.getElementById("image").src = "https://media.nature.com/w1248/magazine-assets/d41586-024-00223-4/d41586-024-00223-4_26661338.jpg?as=webp";
+            if (password === "123") {
+                var images = document.getElementsByClassName("image");
+                for (var i = 0; i < images.length; i++) {
+                    images[i].src = images[i].getAttribute("data-src");
+                }
             } else {
-                alert("Password is wrong ");
+                alert("Incorrect password!");
             }
         }
     </script>
@@ -18,6 +27,10 @@
     <input type="password" id="password" placeholder="Enter password">
     <button onclick="loadPage()">解密图片</button>
     <br><br>
-    <img id="image" src="" alt="已加密">
+    <img class="image" weight="80%" data-src="https://s2.loli.net/2024/01/29/BLAbxTtfipHjUFG.jpg" alt=" ">
+    <img class="image" weight="10%" data-src="https://s2.loli.net/2024/01/29/g5PNROQZIYBW3dz.jpg" alt=" ">
+    
+    <!-- Add more img tags for additional images -->
 </body>
 </html>
+
